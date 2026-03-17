@@ -1,0 +1,101 @@
+.navbar-container {
+    width: auto;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    padding: .7rem 1rem;
+}
+
+.navbar-title {
+    width: 70%;
+    height: auto;
+}
+
+.navbar-title h2 {
+    background: linear-gradient(280deg, rgba(41, 157, 186, 1) 0%, rgba(137, 44, 219, 1) 35%, rgba(177, 0, 196, 1) 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.nav-content {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.nav-content nav {
+    width: 100%;
+}
+
+.nav-content nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 8px;
+}
+
+.nav-content .nav-item {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .45rem .7rem;
+    font-size: 15px;
+    color: rgb(228, 228, 228);
+    cursor: pointer;
+    transition: all .3s ease;
+    overflow: hidden;
+    border-radius: 8px;
+    opacity: 0.5;
+}
+
+.nav-content .nav-item:hover {
+    border: 1px solid rgb(136, 84, 143);
+    background-color: rgba(108, 56, 156, 0.555);
+    color: rgb(185, 185, 185);
+    opacity: 0.7;
+}
+
+.nav-item.active {
+    border: 1px solid rgb(136, 84, 143);
+    background-color: rgba(108, 56, 156, 0.555);
+    color: rgb(228, 228, 228);
+    opacity: 1;
+}
+
+.icon-container {
+    padding: .3rem .7rem;
+    border: 0px solid rgb(136, 84, 143);
+    border-radius: 8px;
+    transition: all .3s ease-in;
+    cursor: pointer;
+}
+
+.icon-container:hover {
+    border: 1px solid rgb(136, 84, 143);
+    background-color: rgba(108, 56, 156, 0.555);
+
+}
+
+.nav-content .icon-moon {
+    width: 20px;
+    height: 20px;
+    transition: all .5s ease;
+}
+
+.nav-content .icon-moon:hover {
+    transform: rotate(45deg);
+}
+
+.navbar-line-separate {
+    border: none;
+    height: 1px;
+    background-color: rgba(134, 134, 134, 0.247);
+    border-radius: 2px;
+    margin-bottom: 4rem;
+}

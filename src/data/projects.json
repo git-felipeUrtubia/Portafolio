@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "nombre": "Stock Master",
+        "image": "https://res.cloudinary.com/dwxz0svlf/image/upload/v1773512829/Gemini_Generated_Image_f1ab2uf1ab2uf1ab_dcnvbb.png",
+        "descripcion": "Es una aplicación de escritorio multiplataforma diseñada para optimizar y centralizar el control de stock de un negocio real.",
+        "link": "https://github.com/git-felipeUrtubia/StockMaster.git"
+    },
+    {
+        "id": 2,
+        "nombre": "Radio Project",
+        "image": "https://res.cloudinary.com/dwxz0svlf/image/upload/v1773512489/WhatsApp_Image_2026-02-18_at_15.24.06_qhpxnp.jpg",
+        "descripcion": "Se trata de una aplicación móvil nativa para Android diseñada para la sintonización y reproducción de estaciones de radio en tiempo real a través de streaming de audio.",
+        "link": "https://github.com/git-felipeUrtubia/RadioProject.git"
+    },
+    {
+        "id": 3,
+        "nombre": "Puerta a Tokio",
+        "image": "https://res.cloudinary.com/dwxz0svlf/image/upload/v1773652540/Screenshot_1_oqrb2d.png",
+        "descripcion": "Plataforma web de turismo enfocada en Japón que integra una arquitectura fullstack. Permite a los usuarios explorar itinerarios, gestionar reservas y compartir experiencias mediante un sistema de reseñas interactivo desarrollado con React y Spring Boot.",
+        "link": "https://github.com/git-felipeUrtubia/Puerta-a-Tokio-Front.git"
+    }
+]
+
